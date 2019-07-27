@@ -1,0 +1,163 @@
+a{
+	text-decoration: none;
+	color:rgba(0,0,0,0.87);
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+button{
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+	color: #5F6368;
+
+	height: 36px;
+    line-height: 27px;
+	
+	font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.sign-in-button{
+	color: white;
+	background-color: #4285f4;
+
+	margin: 0;
+	line-height: 24px;
+	height: 32px;
+}
+
+button:hover{
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+html {
+	box-sizing: border-box;
+  }
+*, *:before, *:after {
+	box-sizing: inherit;
+ }
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+header, footer{
+	padding: 1em;
+}
+
+header{
+	position: fixed;
+  	top: 0;
+  	width: 100%
+}
+
+footer{
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+.main{
+	margin-top: 3em;
+}
+
+.logo{
+	padding-top: 7em;
+}
+
+.mic{
+	width: 25px;
+	margin-top: 9px;
+}
+
+.searchbox{
+	padding: 10px;
+	padding-right: 0;
+	margin: 0;
+
+	width: 530px;
+	font: 16px arial,sans-serif;
+    line-height: 44px;
+    height: 44px !important;
+	background-color: transparent;
+    border: none;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.button-group{
+	text-align: -webkit-center;
+	padding: 2em;
+
+	margin-bottom: 5em;
+}
+
+.outer-box{
+	width: 582px;
+	height: 44px;
+	box-shadow: none;
+	border-radius: 24px;
+	background: #fff;
+	border: 1px solid #dfe1e5;
+	margin-top: 1.5em
+}
+
+.container{
+	width: 100%;
+	min-height: 100%;
+	font-family: arial,sans-serif;
+
+	display: grid;
+	grid-template-rows: 1fr auto;
+	grid-template-columns: 100%; 
+
+	margin: auto;
+	padding: auto;
+}
+
+.navbar-wrapper{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: grey;
+	text-decoration: none;
+	font-size: small;
+}
+
+.nav-item{
+	padding: 0px 2px;
+	display: inline;
+}
+
+.navbar-right{
+	float: right;
+	padding: 0 2px
+}
+
+.il{
+	padding-left: 1em
+}
+
+.ir{
+	padding-right: 1em
+}
